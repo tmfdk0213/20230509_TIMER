@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Pretendard-Regular";
+  background: linear-gradient(lightCyan, skyBlue, deepSkyBlue);
+  background: linear-gradient(90deg, #ff32b1, #faf082);
+}
+.logo {
+  text-align: center;
+  padding: 50px;
+}
+.logo-img {
+  width: 300px;
+}
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #354971;
+  width: 400px;
+  height: 360px;
+  border-radius: 16px;
+}
+
+.timer {
+  color: white;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: -10px;
+  padding-top: 48px;
+}
+.line {
+  width: 312px;
+  height: 2px;
+  padding-top: 23px;
+}
+.word-wrap {
+  color: #a5b6ee;
+  margin-bottom: -26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.box-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
